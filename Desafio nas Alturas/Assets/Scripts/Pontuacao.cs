@@ -8,11 +8,20 @@ public class Pontuacao : MonoBehaviour
 
     private int pontos;
 
+    private AudioSource audioPontuacao;
+
+    private void Awake()
+    {
+        audioPontuacao = GetComponent<AudioSource>();
+    }
+
     public void AdicionarPontos()
     {
         pontos++;
 
         textoPontuacao.text = pontos.ToString();
+
+        audioPontuacao.Play();
     }
 
     public void Reiniciar()
