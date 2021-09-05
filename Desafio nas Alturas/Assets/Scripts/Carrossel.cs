@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Piso : MonoBehaviour
+public class Carrossel : MonoBehaviour
 {
     [SerializeField]
     private float velocidade;
