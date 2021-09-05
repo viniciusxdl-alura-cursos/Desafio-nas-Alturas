@@ -9,9 +9,17 @@ public class Aviao : MonoBehaviour
 
     private Diretor diretor;
 
+    private Vector3 posicaoInicial;
+
     private void Awake()
     {
+        posicaoInicial = transform.position;
+
         fisica = GetComponent<Rigidbody2D>();
+    }
+
+    private void Start()
+    {
         diretor = FindObjectOfType<Diretor>();
     }
 
@@ -21,6 +29,13 @@ public class Aviao : MonoBehaviour
         {
             Impulsionar();
         }
+    }
+
+    public void Reiniciar()
+    {
+        transform.position = posicaoInicial;
+
+        fisica.simulated = true;
     }
 
     private void Impulsionar()
