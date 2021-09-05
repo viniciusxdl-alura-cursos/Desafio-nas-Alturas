@@ -166,7 +166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8937644715b7d9e429d2e8259e56cf7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagemGameOver: {fileID: 1818981455}
 --- !u!1 &352444467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,6 +1811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bbd00ea25c325b4a9b74ec30ad7772a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  imagemGameOver: {fileID: 1818981455}
   valorRecorde: {fileID: 1300436578}
 --- !u!1 &1818981455
 GameObject:

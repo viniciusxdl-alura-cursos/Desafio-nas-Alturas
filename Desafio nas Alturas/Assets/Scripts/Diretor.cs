@@ -2,9 +2,6 @@ using UnityEngine;
 
 public class Diretor : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject imagemGameOver;
-
     private Aviao aviao;
 
     private Pontuacao pontuacao;
@@ -22,14 +19,13 @@ public class Diretor : MonoBehaviour
     {
         Time.timeScale = 0;
 
-        imagemGameOver.SetActive(true);
         pontuacao.SalvarRecorde();
-        interfaceGameOver.AtualizarInterfaceGrafica();
+        interfaceGameOver.MostrarInterface();
     }
 
     public void ReiniciarJogo()
     {
-        imagemGameOver.SetActive(false);
+        interfaceGameOver.EsconderInterface();
 
         Time.timeScale = 1;
 
