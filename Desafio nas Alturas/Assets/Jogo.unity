@@ -523,6 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 587897ea096d15b4a922e57a1cbc689b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidade: 0.1
 --- !u!1 &961118884
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,6 +658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf9c1c67d499f9f449195fdf6544bdc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forca: 10
 --- !u!1 &1178292680
 GameObject:
   m_ObjectHideFlags: 0
