@@ -449,6 +449,7 @@ GameObject:
   - component: {fileID: 961118887}
   - component: {fileID: 961118889}
   - component: {fileID: 961118888}
+  - component: {fileID: 961118890}
   m_Layer: 0
   m_Name: aviao1
   m_TagString: Untagged
@@ -495,7 +496,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: ff14b045811ec8745b94b45a5fec2245, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -571,6 +572,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forca: 3
+--- !u!95 &961118890
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 961118884}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4a139f9411b0e3d4b9cf387a776bf973, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1178292680
 GameObject:
   m_ObjectHideFlags: 0
