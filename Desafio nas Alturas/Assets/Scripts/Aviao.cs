@@ -5,7 +5,7 @@ public class Aviao : MonoBehaviour
     private Rigidbody2D fisica;
 
     [SerializeField]
-    private float forca = 6;
+    private float forca;
 
     private Diretor diretor;
 
