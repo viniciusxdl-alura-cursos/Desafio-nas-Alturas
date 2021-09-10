@@ -13,11 +13,14 @@ public class Aviao : MonoBehaviour
 
     private bool deveImpulsionar;
 
+    private Animator animacao;
+
     private void Awake()
     {
         posicaoInicial = transform.position;
 
         fisica = GetComponent<Rigidbody2D>();
+        animacao = GetComponent<Animator>();
     }
 
     private void Start()
@@ -31,6 +34,8 @@ public class Aviao : MonoBehaviour
         {
             deveImpulsionar = true;
         }
+
+        animacao.SetFloat("VelocidadeY", fisica.velocity.y);
     }
 
     private void FixedUpdate()
