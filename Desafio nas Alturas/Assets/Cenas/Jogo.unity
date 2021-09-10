@@ -938,7 +938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9077e31883a763c4b9574eddaca50c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 5
+  velocidade: {fileID: 11400000, guid: d75bae7a35ba44a4abdba17d9951ee51, type: 2}
 --- !u!1 &1198687675
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,7 +969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9077e31883a763c4b9574eddaca50c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2.5
+  velocidade: {fileID: 11400000, guid: 97152475ac28df14790945a9ade34048, type: 2}
 --- !u!212 &1198687677
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1122,7 +1122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9077e31883a763c4b9574eddaca50c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 5
+  velocidade: {fileID: 11400000, guid: d75bae7a35ba44a4abdba17d9951ee51, type: 2}
 --- !u!212 &1226697705
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6502,7 +6502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9077e31883a763c4b9574eddaca50c5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 2.5
+  velocidade: {fileID: 11400000, guid: 97152475ac28df14790945a9ade34048, type: 2}
 --- !u!1 &1814368248
 GameObject:
   m_ObjectHideFlags: 0
