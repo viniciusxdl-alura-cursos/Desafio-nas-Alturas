@@ -11,6 +11,8 @@ public class Aviao : MonoBehaviour
 
     private Vector3 posicaoInicial;
 
+    private bool deveImpulsionar;
+
     private void Awake()
     {
         posicaoInicial = transform.position;
@@ -26,6 +28,14 @@ public class Aviao : MonoBehaviour
     private void Update()
     {
         if (Input.GetButtonDown("Fire1"))
+        {
+            deveImpulsionar = true;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if (deveImpulsionar)
         {
             Impulsionar();
         }
@@ -43,6 +53,8 @@ public class Aviao : MonoBehaviour
         fisica.velocity = Vector2.zero;
 
         fisica.AddForce(Vector2.up * forca, ForceMode2D.Impulse);
+
+        deveImpulsionar = false;
     }
 
     private void OnCollisionEnter2D(Collision2D colisao)
